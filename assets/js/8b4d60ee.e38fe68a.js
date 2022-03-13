@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrpg_maker_mv_docs=self.webpackChunkrpg_maker_mv_docs||[]).push([[454],{7570:function(s){s.exports=JSON.parse('{"allTagsPath":"/RPG-Maker-MV-Docs/blog/tags","slug":"/RPG-Maker-MV-Docs/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/RPG-Maker-MV-Docs/blog/tags/docusaurus"}')}}]);

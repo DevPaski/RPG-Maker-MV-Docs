@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrpg_maker_mv_docs=self.webpackChunkrpg_maker_mv_docs||[]).push([[375],{2585:function(a){a.exports=JSON.parse('{"allTagsPath":"/RPG-Maker-MV-Docs/blog/tags","slug":"/RPG-Maker-MV-Docs/blog/tags/hola","name":"hola","count":1,"permalink":"/RPG-Maker-MV-Docs/blog/tags/hola"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrpg_maker_mv_docs=self.webpackChunkrpg_maker_mv_docs||[]).push([[827],{4990:function(e){e.exports=JSON.parse('{"permalink":"/RPG-Maker-MV-Docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
