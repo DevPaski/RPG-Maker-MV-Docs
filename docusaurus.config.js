@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
+    title: 'RPG Maker MV Docs',
+    tagline: 'Learn the JS functions from RPG Maker MV',
     url: 'https://github.com',
     baseUrl: '/RPG-Maker-MV-Docs/',
     onBrokenLinks: 'throw',
@@ -25,12 +25,12 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/devpaski',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
-                    editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    editUrl: 'https://github.com/devpaski',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -43,9 +43,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
         navbar: {
-            title: 'My Site',
+            title: 'RPG Maker MV Docs',
             logo: {
-                alt: 'My Site Logo',
+                alt: 'RPG Maker MV Docs Logo',
                 src: 'img/logo.svg',
             },
             items: [{
@@ -56,7 +56,7 @@ const config = {
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    href: 'https://github.com/devpaski',
                     label: 'GitHub',
                     position: 'right',
                 },
@@ -64,43 +64,26 @@ const config = {
         },
         footer: {
             style: 'dark',
-            links: [{
-                    title: 'Docs',
-                    items: [{
-                        label: 'Tutorial',
-                        to: '/docs/intro',
-                    }, ],
-                },
+            links: [
                 {
-                    title: 'Community',
-                    items: [{
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
+                    items: [
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: 'Twitter',
-                            href: 'https://twitter.com/docusaurus',
-                        },
-                    ],
-                },
-                {
-                    title: 'More',
-                    items: [{
                             label: 'Blog',
                             to: '/blog',
+                            
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            href: 'https://github.com/devpaski',
                         },
+                        {
+                            label: 'Twitter',
+                            href: 'https://twitter.com/devpaski'
+                        }
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} RPG Maker MV Docs.`,
         },
         prism: {
             theme: lightCodeTheme,
